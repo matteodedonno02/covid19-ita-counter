@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
+import MyNavbar from "./component/MyNavbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyAccordion from "./component/MyAccordion";
 
 function App() {
   return (
-    <h1>Start</h1>
+    <>
+    <MyNavbar/>
+    <MyAccordion/>
+    </>
   );
 }
 
